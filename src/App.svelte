@@ -1,4 +1,5 @@
 <script>
+  import VirtualList from "@sveltejs/svelte-virtual-list";
   export let name;
   let selectedOption;
 
@@ -97,4 +98,16 @@
     {/each}
   </div>
 
+  <h1>Scrollable List</h1>
+  <div style="margin: 2rem auto; width: 400px; border: 1px solid #f3f3f3">
+    <VirtualList items={options} height="500px" let:item>
+      <div style="padding: 1rem">
+        <Card
+          imageSrc={item.image}
+          header={item.label}
+          title={item.label}
+          subtitle={item.label} />
+      </div>
+    </VirtualList>
+  </div>
 </main>

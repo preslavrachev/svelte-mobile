@@ -61,6 +61,11 @@
     estree-walker "^1.0.1"
     micromatch "^4.0.2"
 
+"@sveltejs/svelte-virtual-list@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@sveltejs/svelte-virtual-list/-/svelte-virtual-list-3.0.1.tgz#3784d6426508836b4471bba8ba293430e73717d8"
+  integrity sha512-aF9TptS7NKKS7/TqpsxQBSDJ9Q0XBYzBehCeIC5DzdMEgrJZpIYao9LRLnyyo6SVodpapm2B7FE/Lj+FSA5/SQ==
+
 "@types/estree@*":
   version "0.0.44"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.44.tgz#980cc5a29a3ef3bea6ff1f7d021047d7ea575e21"
