@@ -35,6 +35,7 @@
   ];
 
   import SegmentedControl from "./core/ios/SegmentedControl.svelte";
+  import SearchBar from "./core/ios/SearchBar.svelte";
   import Card from "./core/common/Card.svelte";
   import UnsplashAttribution from "./misc/UnsplashAtribution.svelte";
 </script>
@@ -99,7 +100,8 @@
   </div>
 
   <h1>Scrollable List</h1>
-  <div style="margin: 2rem auto; width: 400px; border: 1px solid #f3f3f3">
+  <div style="margin: 2rem auto; padding: 1rem; width: 400px; border: 1px solid #f3f3f3">
+    <SearchBar />
     <VirtualList items={options} height="500px" let:item>
       <div style="padding: 1rem">
         <Card
