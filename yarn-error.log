@@ -1,0 +1,31 @@
+Arguments: 
+  /Users/preslavrachev/.nvm/versions/node/v11.7.0/bin/node /usr/local/bin/yarn degit --force sveltejs/template
+
+PATH: 
+  /Users/preslavrachev/.pyenv/shims:/Users/preslavrachev/.nimble/bin:/Users/preslavrachev/.swiftenv/shims:/Users/preslavrachev/.swiftenv/bin:/Users/preslavrachev/.cargo/bin:/Users/preslavrachev/.nvm/versions/node/v11.7.0/bin:/Users/preslavrachev/Downloads/google-cloud-sdk/bin:/Users/preslavrachev/.gem/ruby/2.5.0/bin:/Users/preslavrachev/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/preslavrachev/.rvm/bin:/Users/preslavrachev/code/SDKs/flutter/bin:/Users/preslavrachev/go/bin:/Users/preslavrachev/play-1.5.2:/Users/preslavrachev/kotlin-native/bin:/usr/local/opt/fzf/bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  11.7.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/preslavrachev/code/svelte-mobile/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1631:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
