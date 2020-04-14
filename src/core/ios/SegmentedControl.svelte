@@ -27,7 +27,7 @@
 </script>
 
 <style>
-  #segmented {
+  .segmented {
     height: 29px;
     min-height: 29px;
     border-width: 1px;
@@ -69,7 +69,7 @@
   }
 </style>
 
-<div id="segmented">
+<div class="segmented">
   {#each options as option}
     <div
       class="option {option.active ? 'active' : ''}"
