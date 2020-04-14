@@ -72,9 +72,10 @@
 
   <SegmentedControl bind:selectedOption bind:options />
 
-  <div style="column-count:3">
+  <div style="display:flex">
     {#each options as option}
-      <div style="display:flex; flex-direction: column">
+      <div
+        style="display:flex; flex-direction: column; width: 33%; padding:1rem">
         {#if option.active === true}
           <Card
             imageSrc={option.image}
